@@ -3,7 +3,7 @@ Version: 0.0.1
 Authors@R: 
     c(person(given = "Giulio", family = "Benedetti", role = c("aut", "cre"),
           email = "giulio.benedetti@utu.fi",
-          comment = c(ORCID = "0000-0002-8732-7692"))
+          comment = c(ORCID = "0000-0002-8732-7692")))
 Title: OMA Workshop
 Description:
     OMA Workshop
