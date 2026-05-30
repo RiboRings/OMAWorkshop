@@ -8,4 +8,8 @@ RUN apt-get update && apt-get install -y libglpk-dev && apt-get clean && rm -rf 
 
 ENV R_REMOTES_NO_ERRORS_FROM_WARNINGS=true
 
-RUN Rscript -e "install.packages('remotes'); remotes::install_local('.', dependencies = TRUE, repos = BiocManager::repositories())"
+RUN Rscript -e "install.packages('remotes')"
+
+RUN Rscript -e "remotes::install_local('.', dependencies = TRUE, repos = BiocManager::repositories())"
+
+RUN Rscript -e "remotes::install_github('himelmallick/IntegratedLearner')"

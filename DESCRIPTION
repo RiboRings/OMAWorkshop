@@ -17,7 +17,6 @@ Depends:
 Imports:
     anansi,
     ariadne,
-    IntegratedLearner,
     Maaslin2,
     maaslin3,
     mia,
@@ -32,7 +31,6 @@ Suggests:
     rmarkdown
 Remotes:
     github::Minotau-R/ariadne,
-    github:himelmallick/IntegratedLearner,
     github::microbiome/mia@fix_modules,
     github::Minotau-R/MultiFactor
 URL: https://github.com/RiboRings/OMAWorkshop
