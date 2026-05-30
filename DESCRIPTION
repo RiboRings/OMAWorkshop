@@ -1,0 +1,35 @@
+Package: OMAWorkshop
+Version: 0.0.1
+Authors@R: 
+    c(person(given = "Giulio", family = "Benedetti", role = c("aut", "cre"),
+          email = "giulio.benedetti@utu.fi",
+          comment = c(ORCID = "0000-0002-8732-7692"))
+Title: OMA Workshop
+Description:
+    OMA Workshop
+biocViews:
+    Software, DataImport, Metabolomics, Metagenomics, Microbiome, Annotation,
+    Pathways, Visualization, Network
+License: Artistic-2.0
+Encoding: UTF-8
+Depends:
+    R (>= 4.1)
+Imports:
+    anansi,
+    ariadne,
+    maaslin3,
+    mia,
+    miaViz,
+    MultiFactor,
+    tidygraph
+Suggests:
+    BiocStyle,
+    knitr,
+    remotes,
+    rmarkdown
+Remotes:
+    github::Minotau-R/ariadne,
+    github::microbiome/mia@fix_modules,
+    github::Minotau-R/MultiFactor
+URL: https://github.com/Minotau-R/workflow
+BugReports: https://github.com/Minotau-R/workflow/issues
