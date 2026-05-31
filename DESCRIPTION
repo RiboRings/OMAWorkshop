@@ -33,7 +33,6 @@ Suggests:
 Remotes:
     github::Minotau-R/ariadne,
     github::microbiome/mia,
-    github::microbime/miaTime,
     github::Minotau-R/MultiFactor
 URL: https://github.com/RiboRings/OMAWorkshop
 BugReports: https://github.com/RiboRings/OMAWorkshop/issues
