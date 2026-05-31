@@ -1,5 +1,5 @@
 Package: OMAWorkshop
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     c(person(given = "Giulio", family = "Benedetti", role = c("aut", "cre"),
           email = "giulio.benedetti@utu.fi",
@@ -20,6 +20,7 @@ Imports:
     Maaslin2,
     maaslin3,
     mia,
+    miaTime,
     miaViz,
     MultiFactor,
     MMUPHin,
@@ -31,7 +32,8 @@ Suggests:
     rmarkdown
 Remotes:
     github::Minotau-R/ariadne,
-    github::microbiome/mia@fix_modules,
+    github::microbiome/mia,
+    github::microbime/miaTime,
     github::Minotau-R/MultiFactor
 URL: https://github.com/RiboRings/OMAWorkshop
 BugReports: https://github.com/RiboRings/OMAWorkshop/issues
