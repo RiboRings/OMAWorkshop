@@ -1,5 +1,5 @@
 Package: OMAWorkshop
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: 
     c(person(given = "Giulio", family = "Benedetti", role = c("aut", "cre"),
           email = "giulio.benedetti@utu.fi",
@@ -29,7 +29,8 @@ Imports:
     MMUPHin,
     rstatix,
     tidygraph,
-    tidyverse
+    tidyverse,
+    quarto
 Suggests:
     BiocStyle,
     knitr,
